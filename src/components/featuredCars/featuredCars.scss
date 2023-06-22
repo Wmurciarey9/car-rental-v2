@@ -1,0 +1,76 @@
+.featured-cars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+  gap: 50px;
+
+  .featured-container {
+    display: flex;
+    gap: 30px;
+    .featured-cars-box {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 280px;
+      height: 350px;
+      box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.467);
+      border-radius: 10px;
+      padding: 40px;
+      cursor: pointer;
+
+      img {
+        display: flex;
+        width: 280px;
+        height: 160px;
+        object-fit: cover;
+        margin-bottom: 20px;
+      }
+
+      .icons-box {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        justify-content: space-between;
+        position: relative;
+
+        .icon-set {
+          display: flex;
+          gap: 5px;
+          color: gray;
+          .icon {
+            font-size: 20px;
+          }
+        }
+      }
+      .icon-set-price {
+        display: flex;
+        position: absolute;
+        right: 0;
+        top: -55px;
+        span {
+          font-weight: 700;
+          font-size: 25px;
+        }
+      }
+    }
+  }
+
+  button {
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+    background-color: #141516;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+    &:hover {
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+    }
+  }
+}

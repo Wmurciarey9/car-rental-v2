@@ -1,0 +1,57 @@
+.search-bar {
+  margin: 50px;
+
+  .search-bar-container {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.467);
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/mirrored-squares.png");
+    font-size: 14px;
+    .search-form {
+      display: grid;
+      gap: 30px;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: auto;
+      align-items: center;
+
+      .box-data {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        span {
+          font-weight: 600;
+          margin-bottom: 20px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+
+        input {
+          outline: none;
+          border: 1px solid #ccd7e6;
+          width: 140px;
+          padding: 5px;
+        }
+      }
+      .centered-button {
+        border-radius: 5px;
+        border: none;
+        height: 70px;
+        background-color: #141516;
+        color: white;
+        cursor: pointer;
+
+        &:hover {
+          background-color: white;
+          color: black;
+          border: 1px solid black;
+        }
+      }
+    }
+  }
+}
