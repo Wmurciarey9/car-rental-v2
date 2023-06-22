@@ -1,0 +1,65 @@
+.rent-process {
+  display: flex;
+  flex-direction: column;
+  .rp-container-top {
+    display: flex;
+    margin: 20px 100px;
+    gap: 20px;
+    .left {
+      .rp-text {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 100%;
+        h1 {
+        }
+        p {
+        }
+      }
+    }
+
+    .right {
+      display: flex;
+      flex: 1;
+      .bg-image {
+        display: flex;
+        flex: 1;
+        img {
+          width: 600px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+  .rp-container-bottom {
+    display: flex;
+    margin: 20px 100px 100px 50px;
+    gap: 20px;
+
+    .left {
+      display: flex;
+      flex: 1;
+      .bg-image {
+        display: flex;
+        flex: 1;
+        img {
+          width: 600px;
+          object-fit: cover;
+        }
+      }
+    }
+
+    .right {
+      .rp-text {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 100%;
+        h1 {
+        }
+        p {
+        }
+      }
+    }
+  }
+}

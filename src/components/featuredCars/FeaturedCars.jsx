@@ -29,10 +29,7 @@ export const FeaturedCars = () => {
               <RepeatIcon className="icon" />
               <p>Manual</p>
             </div>
-            <div className="icon-set">
-              <PersonIcon className="icon" />
-              <p>2</p>
-            </div>
+
             <div className="icon-set">
               <LocalGasStationIcon className="icon" />
               <p>Gas</p>
@@ -53,16 +50,13 @@ export const FeaturedCars = () => {
           <div className="icons-box">
             <div className="icon-set">
               <PersonIcon className="icon" />
-              <p>2</p>
+              <p>5</p>
             </div>
             <div className="icon-set">
               <RepeatIcon className="icon" />
               <p>Manual</p>
             </div>
-            <div className="icon-set">
-              <PersonIcon className="icon" />
-              <p>5</p>
-            </div>
+
             <div className="icon-set">
               <LocalGasStationIcon className="icon" />
               <p>Gas</p>
@@ -89,10 +83,7 @@ export const FeaturedCars = () => {
               <RepeatIcon className="icon" />
               <p>Manual</p>
             </div>
-            <div className="icon-set">
-              <PersonIcon className="icon" />
-              <p>2</p>
-            </div>
+
             <div className="icon-set">
               <ElectricCarIcon className="icon" />
               <p>Electric</p>
