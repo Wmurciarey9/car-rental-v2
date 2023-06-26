@@ -1,5 +1,6 @@
 import React from "react";
 import { FeaturedCars } from "../../components/featuredCars/FeaturedCars";
+import { Footer } from "../../components/footer/Footer";
 import { Intro } from "../../components/intro/Intro";
 import { Navbar } from "../../components/navbar/Navbar";
 import { RentProcess } from "../../components/rentProcess/RentProcess";
@@ -13,7 +14,7 @@ export const Home = () => {
       <SearchBar />
       <FeaturedCars />
       <RentProcess />
-      End of page
+      <Footer />
     </div>
   );
 };
