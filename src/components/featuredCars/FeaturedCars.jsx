@@ -3,6 +3,7 @@ import LocalGasStationIcon from "@mui/icons-material/LocalGasStation";
 import PersonIcon from "@mui/icons-material/Person";
 import RepeatIcon from "@mui/icons-material/Repeat";
 import React from "react";
+import { Link } from "react-router-dom";
 
 import Audi from "../../images/siteImages/featured-audi.png";
 import BMW from "../../images/siteImages/featured-bmw.png";
@@ -96,7 +97,10 @@ export const FeaturedCars = () => {
           </div>
         </div>
       </div>
-      <button>See All Cars</button>
+
+      <Link to={`/allCars`}>
+        <button>See All Cars</button>
+      </Link>
     </div>
   );
 };

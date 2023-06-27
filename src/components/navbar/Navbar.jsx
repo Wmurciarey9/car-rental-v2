@@ -6,6 +6,7 @@ import ManageHistoryIcon from "@mui/icons-material/ManageHistory";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import PersonSearchIcon from "@mui/icons-material/PersonSearch";
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "../../images/logoImages/logo2-white-transparent.png";
 import "./navbar.scss";
 
@@ -14,7 +15,9 @@ export const Navbar = () => {
     <div className="navbar">
       <div className="container">
         <div className="left">
-          <img src={Logo} alt="" />
+          <Link to={`/`}>
+            <img src={Logo} alt="" />
+          </Link>
         </div>
         <div className="middle">
           <a href="#">
